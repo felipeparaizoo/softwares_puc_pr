@@ -1,0 +1,441 @@
+.topBar {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    height: auto;
+    top:0;
+    left: 0;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-group {
+    display: flex;
+    align-items: center; 
+    margin-left: auto; 
+}
+
+.menu-links{
+    display: flex;
+    margin-right: 20px;
+}
+
+.menu-links a {
+    width: 70px;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-links a.active {
+    background-color: #0F3961;
+    border-radius: 4px;
+    color: white;
+}
+
+.menu-links a:hover:not(.active) {
+    background-color: #C7D3DD;
+    border-radius: 4px;
+}
+
+.logo{
+    height: 45px;
+    width: auto;
+    margin-right: 20px;
+    display: flex; 
+    align-items: center;
+}
+.logo img{
+    max-height: 100%;
+    width: auto;
+    height: 60px
+    
+}
+.logo p{
+    margin:0;
+    padding-left: 7px;
+    font-family: 'Molard';
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    margin-left: 15px;
+    margin-right: 40px;
+    padding: 15px 15px;
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #36827F;
+    color: white;
+}
+
+.login-btn:hover{
+    background-color: #1b413f;
+}
+
+.content {
+    width: 1200px;
+    margin: 50px auto 20px auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.hero-columns {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    width: 100%; 
+    margin-top: 30px; 
+    
+}
+
+.hero-columns2{
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+}
+
+.content .titleTop {
+    width: 100%; 
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px; 
+    font-family: 'Gont';
+    font-size: 65px;
+}
+
+.img1 {
+    width: 65%; 
+    height: auto;
+    margin-right: 30px; 
+    max-width: 600px; 
+}
+
+.img2{
+    position: relative;
+    height: auto;
+    width: 1150px;
+    margin-right: 185px;
+    top: 200px;
+}
+
+.bloco1 {
+    width: 45%; 
+    margin: 0; 
+    margin-top: 0px; 
+}
+
+.txt1 {
+    text-align: left; 
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.txt1 p {
+    margin-bottom: 10px; 
+}
+
+.txt2{
+    font-size: 20px;
+}
+
+.btn-align{
+    position: flex;
+    padding-left: 50px;
+}
+
+.comeceja-btn{
+    margin-left: 0; 
+    margin-right: 15px; 
+    padding: 17px 20px;
+    cursor: pointer;
+    width: 208px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #0a70cf;
+    color: white;
+    font-size: 23px;
+}
+
+.comeceja-btn:hover{
+    background-color: #13497c ;
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+
+.values-btn{
+    margin-left: 0;
+    margin-right: 40px;
+    padding: 15px 20px;
+    cursor: pointer;
+    width: 208px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #e0e0e0;
+    color: black;
+    font-size: 20px;
+}
+
+.values-btn:hover{
+    background-color: #afafaf;
+}
+
+.stats-group {
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
+    margin-top: 50px; 
+    background-color: rgb(223, 234, 245);
+    border-radius: 15px;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+
+}
+
+.avaliacoes, .vendas, .sup {
+    margin: 0; 
+    text-align: center; 
+    width: 30%; 
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.avaliacoes p, .vendas p, .sup p {
+    font-size: 19px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.3;
+    white-space: normal; 
+    text-align: center;
+}
+
+.services-prices{
+    display: flex;
+    width: 100%;
+    margin-top: 90px;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.service1{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(211, 211, 211);
+    font-size: 19px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.service1 h2{
+    padding-left: 50px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service1 h3{
+    display: flex;
+    margin-top: -7px;
+    padding-left: 40px ;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.service2{
+    margin-top: -8px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid #0198b3;
+    border-left: 3px solid #0198b3;
+    border-right: 3px solid #0198b3;;
+    border-bottom: 3px solid #0198b3;;
+    font-size: 19px;
+    border-radius: 15px;
+}
+
+.service2 h2{
+    padding-left: 50px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service2 h3{
+    display: flex;
+    margin-top: -7px;
+    padding-left: 40px ;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.service2 .premium-header {
+    display: flex; 
+    align-items: center; 
+    padding-top: 15px; 
+}
+
+.service2 .tag-rec {
+    color: #0198b3; 
+    font-size: 19px; 
+    margin-left: 10px; 
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px; 
+    margin-bottom: 0; 
+}
+
+.service3{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(211, 211, 211);
+    font-size: 19px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.service3 h2{
+    padding-left: 50px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service3 h3{
+    display: flex;
+    margin-top: -7px;
+    padding-left: 40px ;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.data-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.data-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.data-container strong {
+    color: #36827F;
+    display: inline-block;
+    width: 150px;
+}
+
+.contact-form {
+    text-align: center; 
+}
+
+.form-submit {
+    display: inline-block; 
+    background: #0A70CF; 
+    color: #fff; 
+    border-bottom: none;
+    width: auto; 
+    padding: 15px 39px; 
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px; 
+    -ms-border-radius: 5px; 
+    margin-top: 25px; 
+    margin-left: 25px; 
+    margin-right: 25px; 
+    margin-left: 15px; 
+    cursor: pointer 
+}
+
+.form-submit:hover {
+    background: #084c8b;
+}
+.form-group {
+    position: relative; 
+    margin-bottom: 25px; 
+    overflow: hidden; 
+    display: inline-flex; 
+    margin-left: 25px; 
+}
+
+.form-group:last-child {
+    margin-bottom: 0 
+}
+label {
+    color: lightslategrey; 
+}
+input {
+    outline: none; 
+    width: 100%; 
+    color: rgb(47, 55, 63);
+    font-size: 17px; 
+    border-bottom: 1px solid #999;
+    padding: 6px 30px; 
+    box-sizing: border-box 
+}
+
+::placeholder {
+    color: rgb(166, 179, 196); 
+    font-size: medium;
+}
+
+.label-agree-term {
+    position: relative; 
+    top: 0%; 
+}
+.agree-term {
+    display: inline-block; 
+    width: auto 
+}
+
+.term-service {
+    font-size: 13px; 
+    color: #222 
+}
+
+input[type=checkbox]+label {
+    display: inline-block; 
+    line-height: 1.5em; 
+    margin-top: 6px; 
+}
+
+body{
+    background-color: #f8f8f8 ;
+}
+    
+@font-face {
+    font-family:'Molard';
+    src: url('../font/Molard-Bold.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Gont';
+    src: url('../font/Gontserrat-Light.ttf') format('truetype')
+}

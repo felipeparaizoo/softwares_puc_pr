@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="UTF-8" />
+    <title>VORTEX</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="topBar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+          <p>VORTEX</p>
+        </a>
+      </div>
+
+      <div class="nav-group">
+        <div class="menu-links">
+          <a href="services.html">Serviços</a>
+          <a class="active" href="form.html">Formulário</a>
+          <a href="about.html">Sobre</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1 class="titleTop">Deixe seu contato!</h1>
+      <div class="contact-form">
+        <form
+          method="GET"
+          action="formAction.html"
+          onsubmit="return validateForm(event)"
+        >
+          <div class="form-group">
+            <label for="name"
+              ><i class="fa fa-user" aria-hidden="true"></i
+            ></label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nome"
+              required
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="email"
+              ><i class="fa fa-envelope" aria-hidden="true"></i
+            ></label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="celular"
+              ><i class="fa fa-phone" aria-hidden="true"></i
+            ></label>
+            <input
+              type="text"
+              name="celular"
+              id="celular"
+              placeholder="Celular"
+              title="(xx) xxxxx-xxxx"
+              required
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="dt_nasc"
+              ><i class="fa fa-birthday-cake" aria-hidden="true"></i
+            ></label>
+            <input
+              type="date"
+              name="dt_nasc"
+              id="dt_nasc"
+              title="Data de Nascimento"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <input
+              type="checkbox"
+              name="agree-term"
+              id="agree-term"
+              class="agree-term"
+              required
+            />
+            <label for="agree-term" class="label-agree-term"
+              ><span><span></span></span>Eu concordo com os
+              <a href="#" class="term-service">termos de serviço</a></label
+            >
+          </div>
+          <br />
+          <div class="form-group form-button">
+            <input type="submit" class="form-submit" value="Enviar" />
+            <input type="reset" class="form-submit" value="Limpar" />
+          </div>
+        </form>
+        <script src="script/script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
