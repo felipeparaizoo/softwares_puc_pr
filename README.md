@@ -1,25 +1,44 @@
-# Softwares - PUCPR
+<p align="center">
+  <img src="assets/icon_normal.png" alt="PUCPR-Logo" width="200"/>
+</p>
 
-Este repositório reúne os softwares desenvolvidos nas atividades avaliativas do curso de Análise e Desenvolvimento de Sistemas da PUCPR.
-Os projetos foram elaborados com foco em aplicar conceitos teóricos na prática, abrangendo desde fundamentos da programação até tópicos avançados em engenharia de software.
+<h1 align="center">
+   <strong>Softwares - PUCPR</strong>
+</h1>
 
-O objetivo é consolidar o aprendizado adquirido durante a formação acadêmica, demonstrando a evolução técnica e a capacidade de propor soluções eficientes para diferentes cenários do mercado de tecnologia.
+<p align="center">
+  This repository brings together the software developed in the evaluative activities of the Analysis and Systems Development course at PUCPR.
+</p>
 
-Fique à vontade para explorar, abrir issues, sugerir melhorias ou contribuir com pull requests. Toda colaboração é muito bem-vinda!
+<p align="center">
+The projects were designed with a focus on applying theoretical concepts in practice, covering from programming fundamentals to advanced topics in software engineering.<br>
+The objective is to consolidate the learning acquired during academic training, demonstrating technical evolution and the ability to propose efficient solutions for different scenarios in the technology market.<br>
+Feel free to explore, open issues, suggest improvements, or contribute with pull requests. All collaboration is very welcome!
+</p>
 
-- Aluno: Felipe Paraizo de Oliveira
-- Curso: Análise e Desenvolvimento de Sistemas (ADS)
-- Faculcade: Pontifícia Universidade Católica do Paraná (PUCPR)
+- Student: Felipe Paraizo de Oliveira
+- Course: Analysis and Systems Development (ASD)
+- University: Pontifical Catholic University of Paraná (PUCPR)
 
-# Projetos
+---
 
-|                 Projeto                 |                                                                                                        Descrição Breve                                                                                                         |       Linguagens       |  Status   |                  Repositório                   |
-| :-------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------: | :-------: | :--------------------------------------------: |
-|   Sistema de Gerenciamento Acadêmico    | Gerenciador de dados educacionais em Python com persistência em arquivos JSON. Ele oferece uma interface de linha de comando (CLI) para cadastro, listagem, atualização e exclusão de registros de cinco entidades principais. |         Python         | Concluido |    [Documentação](Python/sistemaAcadêmico)     |
-|    Sistema de Medição de Temperatura    |                                      Este sistema tem como objetivo monitorar a temperatura e a umidade do ar, utilizando os seguintes componentes principais: ESP32, DHT11 e MÓDULO RELÉ                                      |         Python         | Concluido | [Documentação](Python/sistemaMedirTemperatura) |
-| Sistema de Simulação de Financeiamentos |                                          Sistema de Simulação de Financiamento de imóveis para um banco. Este sistema demonstra conceitos de Programação Orientada a Objetos e Java.                                           |          Java          | Concluido |   [Documentação](Java/sistemaFinanciamentos)   |
-|             Projeto Vortex              |                                                    Projeto Vortex para criação de sites. Este projeto demonstra conceitos de Desenvolvimento Web com Html, CSS e Javascript                                                    | Html, CSS e JavaScript | Concluido |       [Documentação](Html/projetoVortex)       |
+<p align="center">
+  <a href="/README-PT.md" target="_blank">🇧🇷 Português</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Fparaiz0/softwares_puc_pr/issues" target="_blank">🐛 Report Bug</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Fparaiz0" target="_blank">💼 GitHub Profile</a>
+</p>
 
-# Autor
+# Projects
 
-Este repositório foi desenvolvido por [Felipe Paraizo](https://github.com/Fparaiz0) e está hospedado no repositório (https://github.com/Fparaiz0/softwares_puc_pr).
+|            Project             |                                                                                    Brief Description                                                                                    |       Languages        |  Status   |                      Repository                      |
+| :----------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------: | :-------: | :--------------------------------------------------: |
+|   Academic Management System   | Educational data manager in Python with JSON file persistence. It offers a command-line interface (CLI) for registering, listing, updating, and deleting records of five main entities. |         Python         | Completed |        [Documentation](Python/academicSystem)        |
+| Temperature Measurement System |                               This system aims to monitor air temperature and humidity using the following main components: ESP32, DHT11 and RELAY MODULE                               |         Python         | Completed | [Documentation](Python/temperatureMeasurementSystem) |
+|     Loan Simulation System     |                               Real estate financing simulation system for a bank. This system demonstrates Object-Oriented Programming concepts and Java.                               |          Java          | Completed |      [Documentation](Java/loanSimulationSystem)      |
+|         Vortex Project         |                                 Vortex project for website creation. This project demonstrates Web Development concepts with HTML, CSS and JavaScript.                                  | HTML, CSS & JavaScript | Completed |         [Documentation](HTML/vortexProject)          |
+
+# Author
+
+This repository was developed by [Felipe Paraizo](https://github.com/Fparaiz0) and is hosted at (https://github.com/Fparaiz0/softwares_puc_pr).
