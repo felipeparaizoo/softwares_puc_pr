@@ -1,0 +1,150 @@
+<?php
+
+include('protect.php');
+
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="UTF-8" />
+    <title>VORTEX</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="topBar">
+      <div class="logo">
+        <a href="painel.php">
+          <img src="img/logo.png" alt="" />
+          <p>VORTEX</p>
+        </a>
+      </div>
+
+      <div class="nav-group">
+        <div class="menu-links">
+          <a href="services.php">Serviços</a>
+          <a href="form.php">Formulário</a>
+          <a href="listar_orcamentos.php">Gerenciar</a>
+          <a href="about.php">Sobre</a>
+        <a href="logout.php">Sair</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1 class="titleTop">
+        Construíndo seu sonho<br />
+        com um clique
+      </h1>
+
+      <div class="hero-columns">
+        <img class="img1" src="img/index.webp" alt="img computador" />
+
+        <div class="bloco1">
+          <div class="txt1">
+            <p>Transforme sua ideia em um site responsivo e prático.</p>
+            <p></p>
+          </div>
+
+          <div class="btn-align">
+            <a href="form.php" class="comeceja-btn">Comece já →</a>
+            <a href="services.php" class="values-btn"> Serviços e valores </a>
+          </div>
+          <div class="stats-group">
+            <div class="avaliacoes">
+              <p>Avaliação média <br />4.9/5</p>
+            </div>
+            <div class="vendas">
+              <p>Sites entregues <br />+99</p>
+            </div>
+            <div class="sup">
+              <p>
+                Suporte <br />
+                30 dias
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-columns2">
+        <div class="services-prices">
+          <div class="service1">
+            <h2>Basic</h2>
+            <h3>R$25,99 /mês</h3>
+            <ul type="circle">
+              <li>3 Páginas Fundamentais (Home, Contato, Sobre)</li>
+              <br />
+              <li>Design <strong>Otimizado</strong> e Focado em Mobile</li>
+              <br />
+              <li>Suporte <strong> Básico</strong> (via e-mail)</li>
+              <br />
+              <li>Hospedagem <strong> Padrão</strong> Incluída</li>
+              <br />
+              <li>Entrega em <strong>2 Semanas</strong></li>
+              <br />
+              <li>Relatórios de Acesso Mensais</li>
+              <br />
+            </ul>
+          </div>
+
+          <div class="service2">
+            <div class="premium-header">
+              <h2>Premium</h2>
+              <p class="tag-rec">(recomendado)</p>
+            </div>
+            <h3>R$59,99 /mês</h3>
+            <ul type="circle">
+              <li>
+                <strong>7</strong> Páginas Personalizadas e Blog Integrado
+              </li>
+              <br />
+              <li>
+                Design <strong>Inteligente</strong> e Personalizado (UI/UX)
+              </li>
+              <br />
+              <li>Suporte <strong>Prioritário</strong> (Chat e Telefone)</li>
+              <br />
+              <li>Hospedagem <strong>Velocidade Premium</strong></li>
+              <br />
+              <li>
+                Otimização <strong>Inicial</strong> para Buscadores (SEO
+                On-Page)
+              </li>
+              <br />
+              <li>Integração de CRM e Formulários Avançados</li>
+              <br />
+            </ul>
+          </div>
+
+          <div class="service3">
+            <h2>Premium</h2>
+            <h3>R$59,99 /mês</h3>
+            <ul type="circle">
+              <li>
+                Páginas <strong>Ilimitadas</strong> + Área de Membros Exclusiva
+              </li>
+              <br />
+              <li>Design <strong>Estratégico</strong> e Focado em Conversão</li>
+              <br />
+              <li>Suporte <strong>Dedicado</strong> 24/7</li>
+              <br />
+              <li>Arquitetura de Servidor Cloud <strong>Exclusiva</strong></li>
+              <br />
+              <li>Otimização <strong>Avançada</strong> de Performance e SEO</li>
+              <br />
+              <li>
+                Desenvolvimento de Recursos <strong>Customizados</strong> (Ex:
+                Calculadora, Sistema de Reservas)
+              </li>
+              <br />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
