@@ -37,7 +37,8 @@ Feel free to explore, open issues, suggest improvements, or contribute with pull
 |   Academic Management System   | Educational data manager in Python with JSON file persistence. It offers a command-line interface (CLI) for registering, listing, updating, and deleting records of five main entities. |         Python         | Completed |    [Documentation](Python/sistemaAcadêmico)     |
 | Temperature Measurement System |                               This system aims to monitor air temperature and humidity using the following main components: ESP32, DHT11 and RELAY MODULE                               |         Python         | Completed | [Documentation](Python/sistemaMedirTemperatura) |
 |     Loan Simulation System     |                               Real estate financing simulation system for a bank. This system demonstrates Object-Oriented Programming concepts and Java.                               |          Java          | Completed |   [Documentation](Java/sistemaFinanciamentos)   |
-|         Vortex Project         |                                 Vortex project for website creation. This project demonstrates Web Development concepts with HTML, CSS and JavaScript.                                  | HTML, CSS & JavaScript | Completed |       [Documentation](Html/projetoVortex)       |
+|   Vortex Project (Front-End)   |                                 Vortex project for website creation. This project demonstrates Web Development concepts with HTML, CSS and JavaScript.                                  | HTML, CSS & JavaScript | Completed |       [Documentation](Html/projetoVortex)       |
+|  Vortex Project (Full-Stack)   |                                  System for managing quotes for a website creation company. Demonstrates Web Development concepts with PHP and MySQL.                                   |      PHP & MySQL       | Completed |       [Documentation](Php/projetoVortex)        |
 
 # Author
 
