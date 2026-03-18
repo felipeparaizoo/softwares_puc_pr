@@ -25,9 +25,9 @@ Fique à vontade para explorar, abrir issues, sugerir melhorias ou contribuir co
 <p align="center">
   <a href="/README.md" target="_blank">🇺🇸 English</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Fparaiz0/softwares_puc_pr/issues" target="_blank">🐛 Reportar Bug</a>
+  <a href="https://github.com/felipeparaizoo/softwares_puc_pr/issues" target="_blank">🐛 Reportar Bug</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Fparaiz0" target="_blank">💼 Perfil GitHub</a>
+  <a href="https://github.com/felipeparaizoo" target="_blank">💼 Perfil GitHub</a>
 </p>
 
 # Projetos
@@ -42,4 +42,4 @@ Fique à vontade para explorar, abrir issues, sugerir melhorias ou contribuir co
 
 # Autor
 
-Este repositório foi desenvolvido por [Felipe Paraizo](https://github.com/Fparaiz0) e está hospedado no repositório (https://github.com/Fparaiz0/softwares_puc_pr).
+Este repositório foi desenvolvido por [Felipe Paraizo](https://github.com/felipeparaizoo) e está hospedado no repositório (https://github.com/felipeparaizoo/softwares_puc_pr).
