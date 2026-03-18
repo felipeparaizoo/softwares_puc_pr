@@ -25,9 +25,9 @@ Feel free to explore, open issues, suggest improvements, or contribute with pull
 <p align="center">
   <a href="/README-PT.md" target="_blank">🇧🇷 Português</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Fparaiz0/softwares_puc_pr/issues" target="_blank">🐛 Report Bug</a>
+  <a href="https://github.com/felipeparaizoo/softwares_puc_pr/issues" target="_blank">🐛 Report Bug</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Fparaiz0" target="_blank">💼 GitHub Profile</a>
+  <a href="https://github.com/felipeparaizoo" target="_blank">💼 GitHub Profile</a>
 </p>
 
 # Projects
@@ -42,5 +42,5 @@ Feel free to explore, open issues, suggest improvements, or contribute with pull
 
 # Author
 
-This repository was developed by [Felipe Paraizo](https://github.com/Fparaiz0) and is hosted at (https://github.com/Fparaiz0/softwares_puc_pr).
+This repository was developed by [Felipe Paraizo](https://github.com/felipeparaizoo) and is hosted at (https://github.com/felipeparaizoo/softwares_puc_pr).
 
